@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://www.www.benkyo.com/sitemap.xml

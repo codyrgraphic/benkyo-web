@@ -47,13 +47,23 @@
   font-style: italic;
 }
 
+.heading {
+  font-family: "Gotham";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.3rem;
+  color: #ffff;
+  text-decoration: none;
+}
+
 .title1 {
   font-family: "Gotham";
   font-size: 48px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5rem;
   letter-spacing: 0.3rem;
-  color: #ffffffb3;
+  color: #ffff;
   text-decoration: none;
 }
 .title2 {
@@ -65,12 +75,44 @@
   color: #ffffffb3;
   text-decoration: none;
 }
-.menuItems1 {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 00;
-  line-height: 1.5rem;
-  letter-spacing: 0.1rem;
-  color: #fff;
+
+.menu li a {
+  font-family: "gotham";
+  font-weight: 300;
+  color: white; /* or any color you want for the text */
+  opacity: 80%;
   text-decoration: none;
+  font-size: 16px; /* adjust as needed */
+}
+
+.menu li a:hover {
+  opacity: 100%;
+  text-decoration: underline;
+}
+
+.table th {
+  font-family: "gotham";
+  font-weight: 400;
+  color: white; /* or any color you want for the text */
+  opacity: 80%;
+  text-decoration: none;
+  font-size: 20px; /* adjust as needed */
+}
+
+.table td a {
+  font-family: "gotham";
+  font-weight: 300;
+  color: white; /* or any color you want for the text */
+  opacity: 70%;
+  text-decoration: none;
+  font-size: 16px; /* adjust as needed */
+}
+
+.table td a:hover {
+  font-family: "gotham";
+  font-weight: 300;
+  color: white; /* or any color you want for the text */
+  opacity: 100%;
+  text-decoration: underline;
+  font-size: 16px; /* adjust as needed */
 }
